@@ -5,6 +5,12 @@ from utils.data_classes import Message
 from components.sidebar import create_sidebar
 from components.chat_interface import display_chat_messages, handle_chat_input
 
+# Set page title and logo
+st.set_page_config(
+    page_title="Data Science Tutor",
+    page_icon="static/images/ds_tutor.ico" # Set the page icon
+)
+
 # Initialize session state and LLM chain
 initialize_session_state()
 
