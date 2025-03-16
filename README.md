@@ -2,6 +2,9 @@
 
 This Streamlit application provides an interactive data science tutor powered by Google's Gemini 1.5 Pro language model. You can ask questions about data science concepts, request code examples, and receive explanations in a conversational format.
 
+## Deployement Link :
+https://data-science-tutor-zen.streamlit.app
+
 ## Features
 
 - **Interactive Chat Interface:** Engage in a natural conversation with the AI tutor.
@@ -82,7 +85,7 @@ Data_Science_Tutor/
 │   ├── sidebar.py
 │   └── chat_interface.py
 └── static/
-├── .streamlit/
+└── .streamlit/
 └── MIT License
 └── .env (for local development)
 └── README.md
